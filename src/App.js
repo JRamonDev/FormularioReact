@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useState } from 'react';
+window.document.title='Formulario';
 
 function Formulario() {
   const [nombre, setNombre] = useState('');
